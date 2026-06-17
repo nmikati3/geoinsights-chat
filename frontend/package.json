@@ -1,0 +1,49 @@
+{
+  "name": "geoinsights-frontend-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "http-proxy-middleware": "^3.0.2",
+    "@tanstack/react-table": "^8.21.3",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "firebase": "^12.8.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.0.0",
+    "plotly.js": "^3.3.0",
+    "plotly.js-basic-dist": "^3.3.0",
+    "plotly.js-dist-min": "^3.3.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-markdown": "^10.1.0",
+    "react-plotly.js": "^2.6.0",
+    "react-syntax-highlighter": "^16.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^24.10.1",
+    "@types/plotly.js": "^3.0.8",
+    "@types/plotly.js-basic-dist": "^1.54.4",
+    "@types/plotly.js-dist-min": "^2.3.4",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@types/react-plotly.js": "^2.6.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "baseline-browser-mapping": "^2.9.19",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.4",
+    "vite": "^7.2.4"
+  }
+}

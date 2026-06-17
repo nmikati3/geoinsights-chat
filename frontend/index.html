@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSP: restrict sources to self + required Firebase/backend origins.
+         'unsafe-inline' for style-src is required because the app uses inline styles throughout.
+         Replace the placeholder origins below with your own deployment:
+           - https://YOUR_FIREBASE_PROJECT.firebaseapp.com : your Firebase Auth domain
+           - https://YOUR_BACKEND_URL                       : your deployed backend origin
+         The localhost entries are for local development and can be removed in production. -->
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'self';
+                   script-src 'self' 'unsafe-inline';
+                   style-src 'self' 'unsafe-inline';
+                   connect-src 'self' http://localhost:8000 http://0.0.0.0:8000 https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://YOUR_FIREBASE_PROJECT.firebaseapp.com https://YOUR_BACKEND_URL;
+                   img-src 'self' data: blob:;
+                   font-src 'self';
+                   frame-src 'self';" />
+    <title>geoinsights-frontend-ts</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

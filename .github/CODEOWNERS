@@ -1,0 +1,13 @@
+# CODEOWNERS
+# These owners are automatically requested for review on any pull request.
+# Order matters: the last matching pattern takes precedence.
+# Docs: https://docs.github.com/en/repositories/managing-your-repos-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for everything in the repo
+*                       @nmikati3
+
+# Backend (FastAPI service)
+/backend/               @nmikati3
+
+# Frontend (React + Vite app)
+/frontend/              @nmikati3

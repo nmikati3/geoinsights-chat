@@ -1,0 +1,47 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Git
+.git
+.gitignore
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Environment files (don't include secrets in image)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
+coverage
+
+# Documentation
+README.md
+*.md
+
+# Firebase (not needed for Cloud Run)
+.firebase
+firebase.json
+.firebaserc
+
+# Docker files
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Misc
+.DS_Store
+Thumbs.db
+
+.env
