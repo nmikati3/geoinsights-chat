@@ -17,7 +17,7 @@
     "@types/react-syntax-highlighter": "^15.5.13",
     "firebase": "^12.8.0",
     "html2canvas": "^1.4.1",
-    "jspdf": "^4.0.0",
+    "jspdf": "^4.2.1",
     "plotly.js": "^3.3.0",
     "plotly.js-basic-dist": "^3.3.0",
     "plotly.js-dist-min": "^3.3.0",
